@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const axiosInstance = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000',
+  baseURL: import.meta.env.VITE_API_BASE_URL || 'https://hrms-lite-backend-d0jv.onrender.com',
   headers: { 'Content-Type': 'application/json' },
   timeout: 10000,
 })
